@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: code will print alphabet in lowercase
- * Retutn: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
