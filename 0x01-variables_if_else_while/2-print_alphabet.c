@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char x;
+	char gold;
 
-	for (x = 'a'; x <= 'z'; x++)
-		putchar(x);
+	for (gold = 'a'; gold <= 'z'; gold++)
+		putchar(gold);
 	putchar("\n");
 	return (0);
 }
