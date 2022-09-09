@@ -3,15 +3,15 @@
 /**
  * main - Entry point
  * Description: code will print alphabet in lowercase
- * Retutn: Always 0
+ * Retutn: Always 0 (success)
  */
 
 int main(void)
 {
-	char gold;
+	char x;
 
-	for (gold = 'a'; gold <= 'z'; gold++)
-		putchar(gold);
-	putchar("\n");
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
+	putchar('\n');
 	return (0);
 }
