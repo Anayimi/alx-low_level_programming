@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: always 0
+ * Return: always 0 (success)
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		if (a == 'q' || a == 'e')
+		if (x == 'q' || x == 'e')
 		{
 			continue;
 		}
