@@ -7,7 +7,7 @@
 * Return: last digit of n
 */
 
-int print_last_digit(int n)
+int print_last_digit(int)
 {
 _putchar('o' + _abs(n % 10));
 return (_abs(n % 10));
