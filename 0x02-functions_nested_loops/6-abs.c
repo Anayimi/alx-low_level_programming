@@ -5,7 +5,7 @@
 * @n: The integer to be computed
 * Return: int or int negative.
 */
-int _abs(int)
+int _abs(int n)
 {
 if (n < 0)
 {
