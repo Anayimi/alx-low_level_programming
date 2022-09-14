@@ -2,23 +2,22 @@
 
 /**
 * print_alphabet_x10 - prints alphabets 10 times
-* Return: void
+* Return: x10 a-z
 */
 
 void print_alphabet_x10(void)
 {
-int i = 0;
+char alpha, ch;
 
-while (i < 10)
-{
-char c = 'a'
+ch = 0;
 
-while (c <= 'z')
+while (ch < 10)
 {
-_putchar(c);
-c++;
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+{
+_putchar(alpha);
 }
-i++
+ch++;
 _putchar('\n');
 }
 }
