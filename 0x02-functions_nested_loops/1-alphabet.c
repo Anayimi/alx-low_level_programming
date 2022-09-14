@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
-* main - Entry point
-* print_alphabet - Prints lowercase alphabets
+* print_alphabet - prints lowercase alphabets
 * Return: void
 */
 

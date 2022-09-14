@@ -4,7 +4,7 @@
 /**
 * print_alphabet_x10 - prints alphabets 10 times
 * Description: prints 10 times
-* Return: always 0
+* Return: void
 */
 
 void print_alphabet_x10(void)
@@ -23,4 +23,5 @@ c++;
 i++
 _putchar('\n');
 }
+
 }
