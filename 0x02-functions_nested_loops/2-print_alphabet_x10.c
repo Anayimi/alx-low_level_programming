@@ -13,12 +13,12 @@ int i = 0;
 
 while (i < 10)
 {
-char ch = 'a'
+char c = 'a'
 
-while (ch <= 'z')
+while (c <= 'z')
 {
-_putchar(ch);
-ch++;
+_putchar(c);
+c++;
 }
 i++
 _putchar('\n');
