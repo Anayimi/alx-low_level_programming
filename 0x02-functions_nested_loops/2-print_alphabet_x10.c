@@ -3,7 +3,6 @@
 
 /**
 * print_alphabet_x10 - prints alphabets 10 times
-* Description: prints 10 times
 * Return: void
 */
 
@@ -23,5 +22,4 @@ c++;
 i++
 _putchar('\n');
 }
-
 }
