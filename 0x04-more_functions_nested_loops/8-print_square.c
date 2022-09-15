@@ -1,23 +1,30 @@
+/*
+ * File: 8-print_square.c
+ *
+ */
+
 #include "main.h"
 
 /**
- * print_square - prints square
- * @size: param
+ * print_square - Prints a squareusing the character #.
+ * @size: The size of the square.
  */
-
 void print_square(int size)
 {
-	int i = 0, j;
+	int hgt, wid;
 
 	if (size > 0)
 	{
-		for (; i < size; i++)
+		for (hgt = 0; hgt < size; hgt++)
 		{
-			for (j = 0; j < size; j++)
-				_putchar(35);
+			for (wid = 0; wid < size; wid++)
+				_putchar('#');
+
+			if (hgt == size - 1)
+				continue;
 			_putchar('\n');
 		}
 	}
-	else
-		_putchar('\n');
+
+	_putchar('\n');
 }
